@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jockey+One&display=swap');
+
+body {
+    background: url("https://i.ytimg.com/vi/8rXEk7UcEyg/maxresdefault.jpg");
+    background-size: 100% 100%;
+    font-family: 'Jockey One', sans-serif;
+}
+
+div{
+    background:purple ;
+    text-align: center;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2,h3{
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 5px 5px silver;
+}
+
+h3:hover{
+    animation: move 3s infinite;
+}
+
+@keyframes move{
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: darkblue;
+        font-size: 3em;
+    }
+
+    100% {
+        color: white;
+    }
+}
